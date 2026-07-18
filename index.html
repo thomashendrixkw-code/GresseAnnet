@@ -662,11 +662,11 @@
             success.classList.remove('active');
           }, 8000);
         } else {
-          console.log(response);
+
           alert('Une erreur est survenue lors de l\'envoi. Veuillez nous appeler directement.');
         }
       } catch (error) {
-        console.log(error);
+
         alert('Une erreur de connexion est survenue. Veuillez réessayer.');
       } finally {
         submitBtn.textContent = originalText;
